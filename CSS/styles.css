@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-padding-top: 66px;
+}
+body {
+    background-color: rgb(195, 196, 197);
+}
+nav {
+    background-image: url(./light-grey-terrazzo.png);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+nav ul {
+    padding-inline-start: 0;
+    background-color: rgba(241, 205, 149, 0.204);
+}
+.main-menu {
+    font-family: "Kanit", sans-serif;
+    text-transform: uppercase;    
+    text-align: center;    
+}
+.main-menu a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.main-menu li {
+    display: inline-block;
+    width: 130px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(195, 196, 197);
+    border-radius: 10px;
+    background-color: rgba(104, 117, 238, 0.514);
+    color: rgb(245, 245, 245);
+}
+.main-menu a:hover {
+    color: rgb(255, 255, 255);
+}
+.main-menu li:hover {
+    background-color: rgb(104, 117, 238);
+}
+header {
+    position: relative;
+    top: 66px;    
+    width: 100%;
+    background-image: url(./kitten-eyes.png);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    
+}
+.banner {
+    background-image: linear-gradient(rgba(255, 60, 0, 0.425), rgba(68, 0, 255, 0.801));
+}
+.banner h2 {
+    font-family: "Rock Salt", cursive;
+    font-size: 76px;
+    color: rgba(0, 255, 179, 0.75);
+    padding-top: 50px;
+}
+.banner h3 {
+    font-family: "Cinzel", serif;
+    font-size: 56px;
+    font-weight: 900;
+    color: rgba(238, 255, 0, 0.85);
+    padding-bottom: 50px;
+}
+.main {
+    position: relative;
+    top: 66px;
+    padding-bottom: 50px;
+}
+.content {
+    width: 99%;
+    border: 1px rgb(170, 166, 166) solid;
+    padding: 10px;
+    margin: 8px auto;
+    background-color: rgb(188, 189, 190);
+    font-family: "Kanit", sans-serif;
+}
+.content h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Cinzel", serif;
+    font-weight: 900;
+    font-size: 36px;
+}
+.txt h2 {
+    font-family: "kanit", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: underline;
+}
+.txt p {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+.clr {
+    position: relative;
+    vertical-align: top;
+    left: 4.5%;
+    display: inline-block;
+    height: 150px;
+    width: 30%;
+    border: 2px rgb(0, 0, 0) solid;
+    border-radius: 7px;
+    padding: 20px;
+    margin: 30px auto;
+    text-align: center;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0);
+}
+#clr1 {
+    background-image: linear-gradient(rgba(0, 255, 179, 1.0), rgba(0, 255, 179, 0.2));
+}
+#clr1:hover {
+    color: rgb(68, 0, 255);
+}
+#clr2 {
+    background-image: linear-gradient(rgba(238, 255, 0, 1.0), rgba(238, 255, 0, 0.3))
+}
+#clr2:hover {
+    color: rgb(255, 60, 0);
+}
+#clr3 {
+    background-image: linear-gradient(rgba(255, 60, 0, 0.425), rgba(68, 0, 255, 0.801));
+}
+#clr3:hover {
+    color: rgb(238, 255, 0);
+}
+#clr4 {
+    background-image: linear-gradient(rgba(241, 205, 149, 1.0), rgba(241, 205, 149, 0.05));
+}
+#clr4:hover {
+    color: rgb(139, 0, 0);
+}
+#clr5 {
+    background-image: linear-gradient(rgba(104, 117, 238, 1.0), rgba(104, 117, 238, 0.1));
+}
+#clr5:hover {
+    color: rgb(0, 255, 179);
+}
+#clr6 {
+    background-image: linear-gradient(rgba(139, 0, 0, 1.0), rgba(139, 0, 0, 0.3));
+}
+#clr6:hover {
+    color: rgb(245, 245, 245);
+}
+#clr7 {
+    background-color: rgb(195, 196, 197);
+}
+#clr7:hover {
+    color: rgb(104, 117, 238);
+}
+#clr8:hover {
+    color: rgb(0, 0, 0);
+}
+#clr9 {
+    background-image: linear-gradient(rgb(245, 245, 245), rgb(0, 0, 0));
+}
+#clr9:hover {
+    color: rgb(241, 205, 149);
+}
+.fnt {
+    position: relative;
+    vertical-align: top;
+    left: 4.5%;
+    display: inline-block;
+    height: 400px;
+    width: 45%;
+    border: 2px rgb(0, 0, 0) solid;
+    border-radius: 7px;
+    padding: 20px;
+    margin: 30px auto;
+    background-color: rgb(245, 245, 245);
+}
+.fnt h2 {
+    font-weight: normal;
+    text-decoration: underline;
+}
+#fnt1 {
+    font-family: "Kanit", sans-serif;
+}
+#fnt2 {
+    font-family: "Rock Salt", cursive;
+}
+#fnt3 {
+    font-family: "Cinzel", serif;
+}
+.f300 {
+    font-weight: 300;
+}
+.f300i {
+    font-weight: 300;
+    font-style: italic;
+}
+.f400 {
+    font-weight: 400;
+}
+.f400i {
+    font-weight: 400;
+    font-style: italic;
+}
+.f700 {
+    font-weight: 700;
+}
+.f700i {
+    font-weight: 700;
+    font-style: italic;
+}
+.f900 {
+    font-weight: 900;
+}
+.txt {
+    position: relative;
+    vertical-align: top;
+    left: 4.5%;
+    display: inline-block;
+    height: 450px;
+    width: 45%;
+    border: 2px rgb(0, 0, 0) solid;
+    border-radius: 7px;
+    padding: 20px;
+    margin: 30px auto;
+    background-color: rgb(245, 245, 245);
+}
+.txt ul {
+    list-style-position: inside;
+}
+#home-button {
+    position: fixed;
+    height: 30px;
+    width: 50px;
+    bottom: 50px;
+    right: 0;
+    z-index: 1;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-image: url(./codecode.jpg);
+    background-size: 300px 100px;
+    z-index: 1;
+}
+.footer {
+    background-color: rgba(139, 0, 0, 0.781);
+    z-index: 2;
+    height: 100%;
+}
+#footer-link {
+    margin: auto;
+    width: 200px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: "Kanit", sans-serif;
+    text-decoration: none;
+    color: rgb(245, 245, 245)
+}
+#footer-link a {
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+}
